@@ -12,7 +12,7 @@
     <a class="logo" href="#首頁" aria-label="獵人首頁">H<span>×</span>H</a>
     <button class="menu-button" aria-label="開啟導覽選單" aria-expanded="false">☰</button>
     <nav class="navigation" aria-label="主要導覽">
-      <a href="#故事">故事簡介</a><a href="#角色">主要角色</a><a href="#念能力">念能力</a><a href="#旅程">旅程章節</a>
+      <a href="#故事">故事簡介</a><a href="#角色">主要角色</a><a href="#念能力">念能力</a><a href="#旅程">旅程章節</a><a href="#問卷">動漫問卷</a>
     </nav>
   </header>
 
@@ -62,6 +62,25 @@
         <article><span class="chapter-no">04</span><div><h3>貪婪之島</h3><p>走進遊戲般的世界，尋找前進的線索。</p></div><span class="chapter-mark">探索・冒險</span></article>
       </div>
       <p class="spoiler-note">章節介紹僅作簡短導覽，保留完整故事驚喜。</p>
+    </section>
+
+    <section class="survey section" id="問卷">
+      <div class="section-heading"><p class="eyebrow">分享你的喜好</p><h2>你平常喜歡<br>哪種動漫類型？</h2><p class="subheading">可複選，選出你最常看的類型。</p></div>
+      <form class="survey-form">
+        <fieldset>
+          <legend>選擇喜歡的動漫類型</legend>
+          <label><input type="checkbox" name="動漫類型" value="冒險">冒險</label>
+          <label><input type="checkbox" name="動漫類型" value="熱血戰鬥">熱血戰鬥</label>
+          <label><input type="checkbox" name="動漫類型" value="奇幻">奇幻</label>
+          <label><input type="checkbox" name="動漫類型" value="喜劇">喜劇</label>
+          <label><input type="checkbox" name="動漫類型" value="戀愛">戀愛</label>
+          <label><input type="checkbox" name="動漫類型" value="推理懸疑">推理懸疑</label>
+          <label><input type="checkbox" name="動漫類型" value="運動">運動</label>
+          <label><input type="checkbox" name="動漫類型" value="科幻">科幻</label>
+        </fieldset>
+        <button class="button survey-submit" type="submit">送出問卷 <span>→</span></button>
+        <p class="survey-result" aria-live="polite"></p>
+      </form>
     </section>
 
     <section class="closing"><p class="eyebrow">YOUR ADVENTURE AWAITS</p><h2>下一個目的地，<br>由你決定。</h2><a class="button button-light" href="#首頁">回到旅程起點 <span>↑</span></a></section>
